@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — My DV Files</title>
+<style>
+:root { --bg:#F6F8F8; --card:#FFFFFF; --text:#14201F; --muted:#5C6B69; --accent:#0F766E; --line:#DDE5E3; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg:#0E1414; --card:#182020; --text:#E6EEED; --muted:#9AA9A7; --accent:#5EC4B6; --line:#2B3534; }
+}
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+       font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", sans-serif; }
+main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; }
+h1 { font-size: 28px; line-height:1.25; margin: 0 0 8px; }
+h2 { font-size: 20px; margin-top: 32px; }
+a { color: var(--accent); }
+.muted { color: var(--muted); }
+.draft { background:#FEF3C7; color:#78350F; border-radius:12px; padding:12px 16px; margin-bottom:16px; }
+nav { margin-bottom: 24px; display:flex; gap:16px; flex-wrap:wrap; }
+footer { margin-top: 32px; font-size: 14px; }
+</style>
+</head>
+<body><main>
+<nav><a href="./">My DV Files</a><a href="privacy">Privacy</a><a href="terms">Terms</a></nav>
+<div class="draft">Draft — not yet reviewed by an attorney. Placeholders in [brackets] will be replaced before the app is released.</div><div class="card"><h1>Privacy Policy — My DV Files</h1>
+<p><em>Draft for attorney review. Replace every [BRACKETED] value before publishing.</em></p>
+<p><strong>Last updated:</strong> [DATE]</p>
+<p>[COMPANY NAME] ("we", "us") makes the My DV Files app (the "App"). This policy explains what happens
+to your information.</p>
+<h2>Short version</h2>
+<ul>
+<li><strong>We do not collect, receive, or store the information you enter in the App.</strong></li>
+<li>Your data and documents stay on your phone, or in a place you choose: your iCloud Drive, a folder
+  you pick, a file you save, or an app you share with.</li>
+<li>Photos and document scans are taken, checked and edited on your phone (including face detection
+  and background replacement). They are never uploaded by the App.</li>
+<li>The App has no account, no analytics, no advertising, and no tracking.</li>
+</ul>
+<h2>1. Information you enter</h2>
+<p>Names, dates and places of birth, passport details, address, phone, email, education, family
+members' details, photos, your confirmation number, and copies of documents you add (for example
+passports, national IDs, birth/marriage/divorce/death certificates, diplomas, work records, and
+confirmation pages) are stored:</p>
+<ul>
+<li>in the App's private storage on your device; and</li>
+<li>only if you turn it on or choose it:</li>
+<li>in an App folder in <strong>your iCloud Drive</strong> ("My DV Files"), synced by Apple to your other devices
+    signed in to the same Apple Account;</li>
+<li>in a <strong>folder you pick</strong> on your device or in a storage app (Android);</li>
+<li>in a <strong>linked file</strong> or a <strong>backup file</strong> you save to a location you select;</li>
+<li>in any app you send a file to with the share sheet.</li>
+</ul>
+<p>These locations are provided by Apple, Google or another provider and are governed by that
+  provider's privacy policy, not ours. A backup file contains your entry and all your documents in
+  one file — anyone who gets that file can read it.</p>
+<p>We have no access to any of them. If you delete the App, its private storage is deleted by your
+device. Files and folders you saved elsewhere (including iCloud Drive) stay there until you delete
+them.</p>
+<h3>Camera and on-device processing</h3>
+<p>If you use "Take photo" or "Scan a document", the App uses your camera only while that screen is
+open. Live frames are analyzed on your device (face position, document edges) and discarded; only
+the photo or scan you keep is saved. Face detection, photo checks and background replacement run
+entirely on your device; no image is sent to us or to any third-party service by the App.</p>
+<h3>Passport scan (text recognition on the device)</h3>
+<p>If you use "Scan passport", the App reads the two machine-readable lines at the bottom of your
+passport's photo page with the text recognition built into your phone (Apple Vision on iPhone;
+Google ML Kit text recognition bundled in the App on Android). This runs entirely on your device.
+Camera frames and the photo you choose for scanning are analyzed in memory and discarded — they are
+not saved, and nothing is sent to us or to anyone else. Only the values you check and save are
+stored, in the same place as the rest of your entry.</p>
+<h3>Voice reading</h3>
+<p>If you tap "Listen", the App reads the explanation text aloud with your phone's own system voice
+(text-to-speech). The text is the same for every user, and the App does not record audio or use the
+microphone. Whether speech is processed on the device depends on the voice your phone's system
+provides; the App itself sends nothing.</p>
+<h2>2. Information we do not collect</h2>
+<p>We do not collect usage analytics, crash reports, advertising identifiers, location, contacts,
+device identifiers, or the contents of your documents.</p>
+<h2>3. Network access</h2>
+<p>The App connects to the internet only to:</p>
+<ul>
+<li>download a public file with the current season's dates and official links from
+  agisight.github.io (GitHub Pages). This request contains no personal information. Like any web request, the
+  hosting provider may see your IP address in its standard server logs; we do not receive or use it.</li>
+<li>open official U.S. Government websites in your browser when you tap a link.</li>
+<li>process purchases through Apple or Google.</li>
+<li>(only if you turn it on) let your device's iCloud Drive or storage app sync the folder you chose;
+  this syncing is done by Apple or that provider, not by us.</li>
+<li>(Android, document scanning) the system document scanner is provided by Google Play services and
+  runs on your device.</li>
+</ul>
+<!-- DRAFT — publish together with AppFeatures.pushNotices = true (docs/features/push-notices.md).
+     When published, also change section 2: "device identifiers" → "device identifiers, except the
+     push token described in 'Season news'". ⚖️ pending lawyer review. -->
+<!--
+### Season news (optional push notices)
+
+If you turn on **Season news** in More, the App uses Google Firebase Cloud Messaging (and, on iPhone,
+Apple Push Notification service) to deliver short notices about season dates to everyone who turned
+it on. To do this, Google and Apple receive a push token and a Firebase installation identifier for
+your device, and the topics you are subscribed to (the season, e.g. "dv2027", and the App's
+language, e.g. "dv2027-ru"). The App does not send them your name, entry data, documents or
+photos, and we do not receive a list of devices or tokens. Notices are the same for everyone on a
+topic. Turning Season news off unsubscribes your device and deletes the token. Google's handling
+of this data is described in its privacy policy and Firebase terms.
+-->
+
+<h2>4. Purchases</h2>
+<p>In-app purchases are handled entirely by Apple or Google. We receive only an anonymous
+confirmation that a purchase is valid. We do not receive your name, email, or payment details.</p>
+<h2>5. Children</h2>
+<p>The App is intended for adults preparing their own entry. Parents may enter information and photos
+of their children as required by the official instructions; this information stays on the
+parent's device or in a file the parent controls, and we do not receive it.</p>
+<h2>6. Security</h2>
+<p>Data in the App's private storage is protected by your device's security. Keep your device locked
+and be careful who you share your profile file, backup file or documents with, because they contain
+personal information and copies of identity documents.</p>
+<h2>7. Your rights</h2>
+<p>Because we do not hold your personal information, we cannot access, correct, export, or delete
+it for you. You can view, edit, export, and delete it yourself in the App and in the storage
+location you chose.</p>
+<h2>8. Changes</h2>
+<p>We will update this policy if the App's data practices change. If we ever begin collecting
+personal information, we will ask for your consent in the App first.</p>
+<h2>9. Contact</h2>
+<p>[COMPANY NAME] · [ADDRESS] · [EMAIL]</p></div>
+<footer class="muted">My DV Files is an independent organizer app. It is not affiliated with, endorsed by,
+or connected to the U.S. Department of State or any government agency. Entries are submitted only by
+the entrant on dvprogram.state.gov.</footer>
+</main></body></html>
